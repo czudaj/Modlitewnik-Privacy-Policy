@@ -29,25 +29,37 @@
 </head>
 <body>
 
-	<p><a href="#english">English Version</a></p>
+	<p><a href="https://czudaj.github.io/modlitewnik/">Strona aplikacji Modlitewnik</a> · <a href="#english">English Version</a></p>
   
     <h1>Polityka Prywatności Aplikacji Modlitewnik</h1>
-    <p><strong>Ostatnia aktualizacja: 01.10.2024r.</strong></p>
+    <p><strong>Ostatnia aktualizacja: 24.11.2026 r.</strong></p>
   
 	<p>Niniejsza polityka prywatności została przygotowana w celu poinformowania użytkowników o tym, jak dane, w tym dane osobowe, są przetwarzane i przechowywane w aplikacji Modlitewnik. Aplikacja Modlitewnik jest bezpłatną aplikacją, a korzystając z niej, akceptujesz zasady opisane w tej polityce prywatności.</p>
 
     <h2>Gromadzenie i wykorzystanie informacji</h2>
-    <p>Aplikacja Modlitewnik nie jest przeznaczona do zbierania ani przechowywania danych osobowych. Żadne dane osobowe nie powinny być wprowadzane do aplikacji. Aplikacja korzysta jednak z usług firm trzecich, które mogą zbierać dane użytkowników w ramach swoich standardowych funkcji. Usługi te obejmują:</p>
+    <p>Aplikacja Modlitewnik przetwarza wyłącznie dane opisane w tej polityce, potrzebne do działania jej funkcji. Nie sprzedajemy danych użytkowników i nie wykorzystujemy ich do reklam. Aplikacja korzysta z usług firm trzecich, które mogą zbierać dane użytkowników w ramach swoich standardowych funkcji. Usługi te obejmują:</p>
     <ul>
         <li><strong>Google Play</strong>: Do dystrybucji aplikacji oraz aktualizacji. Więcej informacji na temat polityki prywatności Google znajdziesz <a href="https://policies.google.com/privacy">tutaj</a>.</li>
-        <li><strong>Firebase</strong>: Do uwierzytelniania użytkowników oraz przechowywania danych. Więcej informacji na temat polityki prywatności Firebase znajdziesz <a href="https://firebase.google.com/support/privacy">tutaj</a>.</li>
+        <li><strong>Firebase Authentication i Logowanie przez Google</strong>: Do logowania użytkowników.</li>
+        <li><strong>Firebase Realtime Database</strong>: Do przechowywania danych zalogowanych użytkowników.</li>
+        <li><strong>Google Analytics dla Firebase</strong>: Automatycznie zbiera statystyki korzystania z aplikacji, np. liczbę uruchomień, czas korzystania, model urządzenia, wersję systemu i aplikacji, przybliżoną lokalizację (kraj, region) oraz identyfikatory urządzenia (identyfikator instancji aplikacji i identyfikator reklamowy, jeśli jest dostępny). Statystyki te pomagają ocenić, jak aplikacja jest używana; nie łączymy ich z kontem użytkownika.</li>
     </ul>
+    <p>Więcej informacji na temat polityki prywatności Firebase znajdziesz <a href="https://firebase.google.com/support/privacy">tutaj</a>.</p>
 
     <h2>Zakładanie konta</h2>
-    <p>Podczas zakładania konta możesz użyć swojego konta Google lub dowolnego innego adresu email, pod warunkiem że nie stanowi on danych osobowych. Jeśli nie chcesz podawać żadnych danych osobowych, możesz skorzystać z aplikacji w trybie "gość", który nie wymaga rejestracji konta.</p>
+    <p>Podczas zakładania konta możesz użyć swojego konta Google albo dowolnego adresu email i hasła (może to być adres, który nie ujawnia Twojego imienia i nazwiska). Jeśli nie chcesz podawać żadnych danych osobowych, możesz skorzystać z aplikacji w trybie "gość", który nie wymaga rejestracji konta.</p>
+
+    <h2>Dane z konta Google</h2>
+    <p>Jeśli logujesz się kontem Google, aplikacja za pośrednictwem usług Logowanie przez Google i Firebase Authentication otrzymuje z Twojego konta Google: adres email, imię i nazwisko (nazwę wyświetlaną), adres zdjęcia profilowego oraz identyfikator konta. Dane te są wykorzystywane w następujący sposób:</p>
+    <ul>
+        <li><strong>Adres email i identyfikator konta</strong>: do zalogowania i przypisania Twoich danych przechowywanych na serwerze do Twojego konta.</li>
+        <li><strong>Imię i nazwisko</strong>: wyświetlane w aplikacji jako nazwa zalogowanego użytkownika.</li>
+        <li><strong>Zdjęcie profilowe</strong>: aplikacja z niego nie korzysta; adres zdjęcia przechowuje jedynie Firebase Authentication jako część danych konta.</li>
+    </ul>
+    <p>Dane z konta Google są przechowywane w Firebase Authentication (usługa Google). Nie udostępniamy ich innym podmiotom poza Google jako dostawcą tej usługi, nie sprzedajemy ich i nie wykorzystujemy do reklam. Aplikacja nie ma dostępu do hasła ani do innych danych z Twojego konta Google. Dostęp aplikacji do konta Google możesz w każdej chwili cofnąć w <a href="https://myaccount.google.com/connections">ustawieniach konta Google</a>.</p>
 
     <h2>Cel przetwarzania danych</h2>
-    <p>Dane użytkowników przechowywane na serwerze są wykorzystywane wyłącznie w celach związanych z funkcjonowaniem aplikacji. Przetwarzane dane obejmują adres email, ustawienia aplikacji oraz dane dotyczące modlitw. Dane te są przechowywane w celu:</p>
+    <p>Dane użytkowników przechowywane na serwerze są wykorzystywane wyłącznie w celach związanych z funkcjonowaniem aplikacji. Przetwarzane dane obejmują adres email (a przy logowaniu kontem Google także imię i nazwisko), ustawienia aplikacji oraz dane dotyczące modlitw. Dane te są przechowywane w celu:</p>
     <ul>
         <li><strong>Synchronizacji danych między urządzeniami</strong>: Umożliwienie użytkownikowi dostępu do swoich ustawień i danych na różnych urządzeniach po zalogowaniu się na swoje konto.</li>
         <li><strong>Personalizacji ustawień</strong>: Przechowywanie i przywracanie preferencji użytkownika, aby zapewnić spersonalizowane doświadczenie w aplikacji.</li>
@@ -62,6 +74,7 @@
     <p>Dane są przechowywane na serwerze tylko wtedy, gdy użytkownik zaloguje się do aplikacji. Przechowywane dane obejmują:</p>
     <ul>
         <li>Adres email konta lub skojarzony z kontem Google,</li>
+        <li>Przy logowaniu kontem Google: imię i nazwisko, adres zdjęcia profilowego i identyfikator konta Google (w Firebase Authentication),</li>
         <li>Ustawienia aplikacji,</li>
         <li>Dodane modlitwy,</li>
         <li>Oznaczenia modlitw jako ulubione,</li>
@@ -69,13 +82,14 @@
         <li>Oznaczenia rachunku sumienia,</li>
         <li>Definicje przypomnień.</li>
     </ul>
+    <p>Dane są przechowywane w usługach Firebase (Google), na serwerach, które mogą znajdować się poza Europejskim Obszarem Gospodarczym, w tym w USA.</p>
     <p>Jeśli nie chcesz, aby powyższe dane były przechowywane na serwerze, wybierz opcję "Kontynuuj jako gość".</p>
 
     <h2>Usuwanie danych przechowywanych na serwerze</h2>
     <p>Jeśli chcesz usunąć dane przechowywane na serwerze, wyślij żądanie na adres: <strong>Tomasz.Smutek.dev@gmail.com</strong>.</p>
 
     <h2>Usuwanie konta</h2>
-    <p>Aby usunąć konto, wyślij żądanie na adres: <strong>Tomasz.Smutek.dev@gmail.com</strong>.</p>
+    <p>Aby usunąć konto, wyślij żądanie na adres: <strong>Tomasz.Smutek.dev@gmail.com</strong>. Usunięcie konta obejmuje dane przechowywane na serwerze oraz dane z konta Google zapisane w Firebase Authentication.</p>
 
     <h2>Postanowienia końcowe</h2>
     <p>Korzystając z aplikacji, użytkownik akceptuje zasady zawarte w Polityce Prywatności. Użytkownik jest zobowiązany do zabezpieczenia urządzenia przed odczytem danych w przypadku utraty urządzenia.</p>
@@ -93,22 +107,35 @@
 </br>
 
     <h1 id="english">Privacy Policy - Modlitewnik App</h1>
-    <p><strong>Last updated: 10.01.2024</strong></p>
+    <p><strong>Last updated: November 24, 2026</strong></p>
+    <p><a href="https://czudaj.github.io/modlitewnik/#english">Modlitewnik app home page</a></p>
     
     <p>This privacy policy is intended to inform users about how data, including personal data, is processed and stored in the Modlitewnik app. The Modlitewnik app is a free application, and by using it, you agree to the terms outlined in this privacy policy.</p>
 
     <h2>Information Collection and Use</h2>
-    <p>The Modlitewnik app is not intended to collect or store personal data. No personal data should be entered into the app. However, the app utilizes third-party services that may collect user data as part of their standard functions. These services include:</p>
+    <p>The Modlitewnik app processes only the data described in this policy, which is needed for its features to work. We do not sell user data and do not use it for advertising. The app uses third-party services that may collect user data as part of their standard functions. These services include:</p>
     <ul>
         <li><strong>Google Play</strong>: For app distribution and updates. More information about Google's privacy policy can be found <a href="https://policies.google.com/privacy">here</a>.</li>
-        <li><strong>Firebase</strong>: For user authentication and data storage. More information about Firebase's privacy policy can be found <a href="https://firebase.google.com/support/privacy">here</a>.</li>
+        <li><strong>Firebase Authentication and Sign in with Google</strong>: For user sign-in.</li>
+        <li><strong>Firebase Realtime Database</strong>: For storing the data of signed-in users.</li>
+        <li><strong>Google Analytics for Firebase</strong>: Automatically collects app usage statistics, such as the number of app launches, usage time, device model, operating system and app version, approximate location (country, region) and device identifiers (app instance ID and advertising ID, if available). These statistics help us understand how the app is used; we do not link them to user accounts.</li>
     </ul>
+    <p>More information about Firebase's privacy policy can be found <a href="https://firebase.google.com/support/privacy">here</a>.</p>
 
     <h2>Account Creation</h2>
-    <p>When creating an account, you may use your Google account or any other email address, provided it does not constitute personal data. If you do not wish to provide any personal data, you can use the app in "guest" mode, which does not require account registration.</p>
+    <p>When creating an account, you may use your Google account or any email address with a password (it can be an address that does not reveal your name). If you do not wish to provide any personal data, you can use the app in "guest" mode, which does not require account registration.</p>
+
+    <h2>Google Account Data</h2>
+    <p>If you sign in with a Google account, the app receives the following data from your Google account through Sign in with Google and Firebase Authentication: email address, name (display name), profile picture URL and account ID. This data is used as follows:</p>
+    <ul>
+        <li><strong>Email address and account ID</strong>: to sign you in and link your data stored on the server to your account.</li>
+        <li><strong>Name</strong>: shown in the app as the name of the signed-in user.</li>
+        <li><strong>Profile picture</strong>: not used by the app; the picture URL is only stored by Firebase Authentication as part of the account data.</li>
+    </ul>
+    <p>Google account data is stored in Firebase Authentication (a Google service). We do not share it with anyone other than Google as the provider of this service, we do not sell it and we do not use it for advertising. The app has no access to your password or to any other data in your Google account. You can revoke the app's access to your Google account at any time in your <a href="https://myaccount.google.com/connections">Google Account settings</a>.</p>
 
     <h2>Purpose of Data Processing</h2>
-    <p>User data stored on the server is used solely for the functioning of the app. Processed data includes email address, app settings, and prayer-related data. This data is stored for the following purposes:</p>
+    <p>User data stored on the server is used solely for the functioning of the app. Processed data includes email address (and, when signing in with a Google account, also your name), app settings, and prayer-related data. This data is stored for the following purposes:</p>
     <ul>
         <li><strong>Synchronization of data between devices</strong>: Allowing the user to access their settings and data on different devices after logging in to their account.</li>
         <li><strong>Personalization of settings</strong>: Storing and restoring user preferences to provide a personalized experience within the app.</li>
@@ -123,6 +150,7 @@
     <p>Data is stored on the server only when the user logs into the app using a Google account or email. Stored data includes:</p>
     <ul>
         <li>Email address or associated Google account,</li>
+        <li>When signing in with a Google account: name, profile picture URL and Google account ID (in Firebase Authentication),</li>
         <li>App settings,</li>
         <li>Added prayers,</li>
         <li>Favorites marked as favorites,</li>
@@ -130,13 +158,14 @@
         <li>Examination of conscience markings,</li>
         <li>Reminder definitions.</li>
     </ul>
+    <p>The data is stored in Firebase (Google) services, on servers that may be located outside the European Economic Area, including in the USA.</p>
     <p>If you do not want the above data to be stored on the server, choose the "Continue as Guest" option.</p>
 
     <h2>Removing Data Stored on the Server</h2>
     <p>If you wish to remove data stored on the server, please send a request to: <strong>Tomasz.Smutek.dev@gmail.com</strong>.</p>
 
     <h2>Account Deletion</h2>
-    <p>To delete your account, send a request to: <strong>Tomasz.Smutek.dev@gmail.com</strong>.</p>
+    <p>To delete your account, send a request to: <strong>Tomasz.Smutek.dev@gmail.com</strong>. Account deletion covers the data stored on the server and the Google account data saved in Firebase Authentication.</p>
 
     <h2>Final Provisions</h2>
     <p>By using the app, the user agrees to the terms outlined in the Privacy Policy. The user is responsible for securing the device to prevent data readout in the event of device loss.</p>
